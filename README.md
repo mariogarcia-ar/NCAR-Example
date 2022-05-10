@@ -1,9 +1,9 @@
-ID=dev-1651852369664-24990959096739
-echo $ID
+    ID=dev-1651852369664-24990959096739
+    echo $ID
 
 Inicializar contrato:
 
-near call $ID init_contract '{"owner_id":"'$ID'"}' --accountId $ID
+    near call $ID init_contract '{"owner_id":"'$ID'"}' --accountId $ID
 
 Obtener producto
 
